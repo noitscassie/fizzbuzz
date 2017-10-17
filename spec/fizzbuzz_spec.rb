@@ -11,7 +11,7 @@ describe 'fizzbuzz' do
   end
 
   it 'returns "7" when passed 7' do
-    expect(fizzbuzz(7)).to eq "7"
+    expect(fizzbuzz(7)).to eq 7
   end
 
   it 'returns "fizzbuzz" when passed 15' do
@@ -26,7 +26,11 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(10)).to eq 'buzz'
   end
 
-  it 'returns "nil" when passed 0' do
-    expect(fizzbuzz(0)).to eq 'nil'
+  it 'returns "0" when passed 0' do
+    expect(fizzbuzz(0)).to eq 0
+  end
+
+  it 'returns "8" when passed 8' do
+    expect(fizzbuzz(8)).to eq 8
   end
 end
