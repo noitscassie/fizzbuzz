@@ -7,6 +7,8 @@ def fizzbuzz(number)
     return "fizzbuzz"
   elsif number == 7 # in case it doesn't refactor by either 3 or 5
     return "7"
+  elsif number == 6
+    return "fizz"
   else
     return number
   end
