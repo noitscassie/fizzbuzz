@@ -23,7 +23,10 @@ describe 'fizzbuzz' do
   end
 
   it 'returns "buzz" when passed 10' do
-    expect(fizzbuzz(10)).to eq '10'
+    expect(fizzbuzz(10)).to eq 'buzz'
   end
 
+  it 'returns "nil" when passed 0' do
+    expect(fizzbuzz(0)).to eq 'nil'
+  end
 end
